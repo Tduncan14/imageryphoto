@@ -60,3 +60,53 @@ img {
     box-sizing: border-box;
     padding:1.5rem;
 }
+
+
+.card img{
+    object-fit:cover;
+}
+
+.gallery{
+    padding:1rem;
+}
+
+
+.card h2{
+    margin:8px 0 16px 0;
+}
+
+
+.about h3{
+    font-size:40px;
+}
+
+
+.about{
+    width:40%;
+    min-width:600px;
+    margin:100px 0 100px 200px;
+}
+
+
+.contact{
+    margin-top:40px;
+}
+
+.contact p {
+     margin:0;
+}
+
+
+.cta{
+    border-bottom: 1px solid black;
+    display:inline-block;
+    padding-bottom:8px;
+    font-weight:none;
+    margin-top:0;
+}
+
+
+
+img:hover{
+     opacity:0.9;
+}
